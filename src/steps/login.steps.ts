@@ -5,7 +5,7 @@ import logger from "../support/logger";
 When("I login with valid credentials", async function (this: ICustomWorld) {
   logger.info("Step: Logging in with valid credentials");
   await this.welcomePage.clickStartTesting();
-  await this.loginPage.login(process.env.USERNAME!, process.env.PASSWORD!);
+  await this.loginPage.login(process.env.APP_USERNAME!, process.env.APP_PASSWORD!);
   logger.info(`User "${process.env.USERNAME}" logged in successfully`);
 });
 

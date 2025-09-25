@@ -16,7 +16,7 @@ export class BooksListPage extends BasePage {
 
   async verifyWelcomeMessage(): Promise<void> {
     logger.info("Verifying welcome message");
-    const expectedUser = this.capitalize(process.env.USERNAME!);
+    const expectedUser = this.capitalize(process.env.APP_USERNAME!);
     await this.verifyText(this.welcomeMessage, `Welcome, ${expectedUser}!`);
     logger.info(`Verified welcome message for user: ${expectedUser}`);
   }

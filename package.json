@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js",
-    "report": "open reports/cucumber-report.html",
-    "test:firefox": "BROWSER=firefox HEADLESS=true npm test"
+    "report": "open reports/cucumber-report.html"
   },
   "keywords": [],
   "author": "",

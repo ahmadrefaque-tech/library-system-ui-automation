@@ -1,4 +1,4 @@
-import { Page } from "@playwright/test";
+import { Page, expect } from "@playwright/test";
 import logger from "../support/logger";
 import { BasePage } from "./BasePage";
 
@@ -30,12 +30,15 @@ export class LoginPage extends BasePage {
   }
 
   async verifyLoginPageDisplayed() {
-    const currentUrl = this.page.url();
-    logger.info(`Verifying login page is displayed (Current URL: ${currentUrl})`);
-    await this.assertVisible(
-      this.getLocator(this.loginButton),
-      "Bug: Login button not visible after logout."
-    );
-    logger.info("Login page is displayed");
+  const currentUrl = this.page.url();
+  console.log(`Current URL after logout: ${currentUrl}`);
+
+  try {
+    await expect(this.getLocator(this.loginButton)).toBeVisible({ timeout: 2000 });
+    } catch {
+      throw new Error(
+        `Bug: Login button not visible after logout. Current URL: ${currentUrl}`
+      );
+    }
   }
 }

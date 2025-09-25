@@ -40,20 +40,16 @@ This framework follows the **Page Object Model (POM)** design, integrates with *
    ```bash
    npm test
 
-4. **Run a specific feature**
+4. **Configure environment if want to run in different browser and headless mode**
    ```bash
-   npx cucumber-js features/<featureFileName>.feature
-   eg. npx cucumber-js features/login.feature
+   Navigate to .env to switch browsers or toggle headless mode.
+   Example: BROWSER=firefox and HEADLESS=true will run in Firefox headless mode.
 
-5. **Run all test in firefox in headless mode**
-   ```bash
-   npm run test:firefox
-
-6. **Reports**
+5. **Reports**
    ```bash
    npm run report
    location: reports/cucumber-report.html
 
-7. **Log**
+6. **Log**
    ```bash
    location: logs/test.log

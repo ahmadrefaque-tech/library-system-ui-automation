@@ -10,6 +10,5 @@ module.exports = {
     paths: ["features/**/*.feature"],
     publishQuiet: true,
     // tags: "@reg",
-    timeout: 60000
   }
 };
