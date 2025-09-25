@@ -4,8 +4,7 @@
   "description": "UI automation framework for Books Inventory Application using Playwright + TypeScript + Cucumber (BDD)",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js",
-    "report": "open reports/cucumber-report.html"
+    "test": "cucumber-js"
   },
   "keywords": [],
   "author": "",
