@@ -47,7 +47,6 @@ This framework follows the **Page Object Model (POM)** design, integrates with *
 
 5. **Reports**
    ```bash
-   npm run report
    location: reports/cucumber-report.html
 
 6. **Log**

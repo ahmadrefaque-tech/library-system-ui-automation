@@ -12280,3 +12280,852 @@
 [2025-09-25 19:34:46] [INFO]: Page closed.
 [2025-09-25 19:34:46] [INFO]: Browser context closed.
 [2025-09-25 19:34:46] [INFO]: Browser closed.
+[2025-09-25 19:47:21] [INFO]: Launching browser [chromium] | Headless: false
+[2025-09-25 19:47:23] [INFO]: Starting Scenario: "Add a new book successfully"
+[2025-09-25 19:47:23] [INFO]: Step: Navigating to Welcome page: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:47:23] [INFO]: Navigating to URL: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:47:24] [INFO]: Waiting for 'Start Testing' button to be visible (up to 4 minutes)...
+[2025-09-25 19:47:24] [INFO]: Welcome page loaded successfully, 'Start Testing' button is visible.
+[2025-09-25 19:47:24] [INFO]: Start Testing" button appeared after 0.133s
+[2025-09-25 19:47:24] [INFO]: Step: Logging in with valid credentials
+[2025-09-25 19:47:24] [INFO]: Clicking 'Start Testing' button...
+[2025-09-25 19:47:24] [INFO]: Clicking element: text=Start Testing
+[2025-09-25 19:47:24] [INFO]: Clicked element: text=Start Testing
+[2025-09-25 19:47:24] [INFO]: Clicked 'Start Testing' button
+[2025-09-25 19:47:24] [INFO]: Attempting login with username: "admin"
+[2025-09-25 19:47:24] [INFO]: Filling input: #username with value: "admin" (delay: 0)
+[2025-09-25 19:47:24] [INFO]: Waiting for element to be visible: #username
+[2025-09-25 19:47:24] [INFO]: Element became visible: #username
+[2025-09-25 19:47:24] [INFO]: Input filled: #username
+[2025-09-25 19:47:24] [INFO]: Filling input: #password with value: "admin" (delay: 0)
+[2025-09-25 19:47:24] [INFO]: Waiting for element to be visible: #password
+[2025-09-25 19:47:24] [INFO]: Element became visible: #password
+[2025-09-25 19:47:24] [INFO]: Input filled: #password
+[2025-09-25 19:47:24] [INFO]: Clicking element: button[aria-label='Submit login']
+[2025-09-25 19:47:24] [INFO]: Clicked element: button[aria-label='Submit login']
+[2025-09-25 19:47:24] [INFO]: Login button clicked
+[2025-09-25 19:47:24] [INFO]: User "undefined" logged in successfully
+[2025-09-25 19:47:24] [INFO]: Step: Verifying welcome message with username
+[2025-09-25 19:47:24] [INFO]: Verifying welcome message
+[2025-09-25 19:47:24] [INFO]: Verifying text for .text-lg.font-bold, expecting "Welcome, Admin!"
+[2025-09-25 19:47:24] [INFO]: Verified text for .text-lg.font-bold: "Welcome, Admin!"
+[2025-09-25 19:47:24] [INFO]: Verified welcome message for user: Admin
+[2025-09-25 19:47:24] [INFO]: Total books count : 3
+[2025-09-25 19:47:24] [INFO]: Step: Verify book count matches catalog row count
+[2025-09-25 19:47:24] [INFO]: Verifying book count matches catalog rows
+[2025-09-25 19:47:24] [INFO]: Count for table tbody tr: 3
+[2025-09-25 19:47:24] [INFO]: Total books count : 3
+[2025-09-25 19:47:24] [INFO]: Book count displayed: 3
+[2025-09-25 19:47:24] [INFO]: Row count in catalog: 3
+[2025-09-25 19:47:24] [INFO]: Asserting equality: actual=[3], expected=[3]
+[2025-09-25 19:47:24] [INFO]: Assertion passed: expected [3] and received [3]
+[2025-09-25 19:47:24] [INFO]: Book count matches catalog rows
+[2025-09-25 19:47:24] [INFO]: Step: I navigate to the Add a New Book page
+[2025-09-25 19:47:24] [INFO]: Clicking 'Add Book' button
+[2025-09-25 19:47:25] [INFO]: Verifying Add Book page is displayed
+[2025-09-25 19:47:25] [INFO]: Verifying text for [id='add-book-heading'], expecting "Add a New Book"
+[2025-09-25 19:47:25] [INFO]: Verified text for [id='add-book-heading']: "Add a New Book"
+[2025-09-25 19:47:25] [INFO]: Add Book page verified
+[2025-09-25 19:47:25] [INFO]: Step: I add a new book with title length = 20
+[2025-09-25 19:47:25] [INFO]: Generating new book with title length 20
+[2025-09-25 19:47:25] [INFO]: Generated random title [length=20]: enrollexaltknucklebe
+[2025-09-25 19:47:25] [INFO]: Generated future date (+60 days): 24/11/2025
+[2025-09-25 19:47:25] [INFO]: Adding book: {"title":"enrollexaltknucklebe","author":"Tara Hoeger PhD","genre":"Non-Fiction","publicationDate":"24/11/2025","isbn":"6339747549","price":"25.09"}
+[2025-09-25 19:47:25] [INFO]: Filling input: #title with value: "enrollexaltknucklebe" (delay: 0)
+[2025-09-25 19:47:25] [INFO]: Waiting for element to be visible: #title
+[2025-09-25 19:47:25] [INFO]: Element became visible: #title
+[2025-09-25 19:47:25] [INFO]: Input filled: #title
+[2025-09-25 19:47:25] [INFO]: Selecting option "Non-Fiction" from dropdown: #genre
+[2025-09-25 19:47:25] [INFO]: Selected option "Non-Fiction"
+[2025-09-25 19:47:25] [INFO]: Filling input: #publicationDate with value: "24/11/2025" (delay: 100)
+[2025-09-25 19:47:25] [INFO]: Waiting for element to be visible: #publicationDate
+[2025-09-25 19:47:25] [INFO]: Element became visible: #publicationDate
+[2025-09-25 19:47:26] [INFO]: Input filled: #publicationDate
+[2025-09-25 19:47:26] [INFO]: Filling input: #isbn with value: "6339747549" (delay: 0)
+[2025-09-25 19:47:26] [INFO]: Waiting for element to be visible: #isbn
+[2025-09-25 19:47:26] [INFO]: Element became visible: #isbn
+[2025-09-25 19:47:26] [INFO]: Input filled: #isbn
+[2025-09-25 19:47:26] [INFO]: Filling input: #price with value: "25.09" (delay: 0)
+[2025-09-25 19:47:26] [INFO]: Waiting for element to be visible: #price
+[2025-09-25 19:47:26] [INFO]: Element became visible: #price
+[2025-09-25 19:47:26] [INFO]: Input filled: #price
+[2025-09-25 19:47:26] [INFO]: Filling input: #author with value: "Tara Hoeger PhD" (delay: 0)
+[2025-09-25 19:47:26] [INFO]: Waiting for element to be visible: #author
+[2025-09-25 19:47:26] [INFO]: Element became visible: #author
+[2025-09-25 19:47:26] [INFO]: Input filled: #author
+[2025-09-25 19:47:26] [INFO]: Clicking 'Add Book' button
+[2025-09-25 19:47:26] [INFO]: Clicking element: button[aria-label='Submit Add New Book Form']
+[2025-09-25 19:47:26] [INFO]: Clicked element: button[aria-label='Submit Add New Book Form']
+[2025-09-25 19:47:26] [INFO]: Book submitted: "enrollexaltknucklebe"
+[2025-09-25 19:47:26] [INFO]: New book created: {"title":"enrollexaltknucklebe","author":"Tara Hoeger PhD","genre":"Non-Fiction","publicationDate":"24/11/2025","isbn":"6339747549","price":"25.09"}
+[2025-09-25 19:47:26] [INFO]: Step: Verify new book is visible in catalog: enrollexaltknucklebe
+[2025-09-25 19:47:26] [INFO]: Verifying book is present: enrollexaltknucklebe
+[2025-09-25 19:47:26] [INFO]: Waiting for element to be visible: tr:has(td:text-is("enrollexaltknucklebe"))
+[2025-09-25 19:47:26] [INFO]: Element became visible: tr:has(td:text-is("enrollexaltknucklebe"))
+[2025-09-25 19:47:26] [INFO]: Getting locator for: tr:has(td:text-is("enrollexaltknucklebe"))
+[2025-09-25 19:47:26] [INFO]: Asserting equality: actual=[enrollexaltknucklebe], expected=[enrollexaltknucklebe]
+[2025-09-25 19:47:26] [INFO]: Assertion passed: expected [enrollexaltknucklebe] and received [enrollexaltknucklebe]
+[2025-09-25 19:47:26] [INFO]: Asserting equality: actual=[Tara Hoeger PhD], expected=[Tara Hoeger PhD]
+[2025-09-25 19:47:26] [INFO]: Assertion passed: expected [Tara Hoeger PhD] and received [Tara Hoeger PhD]
+[2025-09-25 19:47:26] [INFO]: Asserting equality: actual=[Non-Fiction], expected=[Non-Fiction]
+[2025-09-25 19:47:26] [INFO]: Assertion passed: expected [Non-Fiction] and received [Non-Fiction]
+[2025-09-25 19:47:26] [INFO]: Asserting equality: actual=[6339747549], expected=[6339747549]
+[2025-09-25 19:47:26] [INFO]: Assertion passed: expected [6339747549] and received [6339747549]
+[2025-09-25 19:47:26] [INFO]: Asserting equality: actual=[24/11/2025], expected=[24/11/2025]
+[2025-09-25 19:47:26] [INFO]: Assertion passed: expected [24/11/2025] and received [24/11/2025]
+[2025-09-25 19:47:26] [INFO]: Asserting equality: actual=[25.09], expected=[25.09]
+[2025-09-25 19:47:26] [INFO]: Assertion passed: expected [25.09] and received [25.09]
+[2025-09-25 19:47:26] [INFO]: Verified all details for book: enrollexaltknucklebe
+[2025-09-25 19:47:26] [INFO]: Step: Verify book count matches catalog row count
+[2025-09-25 19:47:26] [INFO]: Verifying book count matches catalog rows
+[2025-09-25 19:47:26] [INFO]: Count for table tbody tr: 4
+[2025-09-25 19:47:26] [INFO]: Total books count : 4
+[2025-09-25 19:47:26] [INFO]: Book count displayed: 4
+[2025-09-25 19:47:26] [INFO]: Row count in catalog: 4
+[2025-09-25 19:47:26] [INFO]: Asserting equality: actual=[4], expected=[4]
+[2025-09-25 19:47:26] [INFO]: Assertion passed: expected [4] and received [4]
+[2025-09-25 19:47:26] [INFO]: Book count matches catalog rows
+[2025-09-25 19:47:26] [INFO]: Step: Verify book count increased by 1
+[2025-09-25 19:47:26] [INFO]: Verifying book count increased
+[2025-09-25 19:47:26] [INFO]: Total books count : 4
+[2025-09-25 19:47:26] [INFO]: Initial count: 3, New count: 4
+[2025-09-25 19:47:26] [INFO]: Asserting equality: actual=[4], expected=[4]
+[2025-09-25 19:47:26] [INFO]: Assertion passed: expected [4] and received [4]
+[2025-09-25 19:47:26] [INFO]: Book count increased by 1
+[2025-09-25 19:47:26] [INFO]: Finished Scenario: "Add a new book successfully"
+[2025-09-25 19:47:26] [INFO]: Page closed.
+[2025-09-25 19:47:26] [INFO]: Browser context closed.
+[2025-09-25 19:47:26] [INFO]: Browser closed.
+[2025-09-25 19:47:26] [INFO]: Launching browser [chromium] | Headless: false
+[2025-09-25 19:47:27] [INFO]: Starting Scenario: "Submitting the form without entering any fields"
+[2025-09-25 19:47:27] [INFO]: Step: Navigating to Welcome page: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:47:27] [INFO]: Navigating to URL: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:47:29] [INFO]: Waiting for 'Start Testing' button to be visible (up to 4 minutes)...
+[2025-09-25 19:47:29] [INFO]: Welcome page loaded successfully, 'Start Testing' button is visible.
+[2025-09-25 19:47:29] [INFO]: Start Testing" button appeared after 0.116s
+[2025-09-25 19:47:29] [INFO]: Step: Logging in with valid credentials
+[2025-09-25 19:47:29] [INFO]: Clicking 'Start Testing' button...
+[2025-09-25 19:47:29] [INFO]: Clicking element: text=Start Testing
+[2025-09-25 19:47:29] [INFO]: Clicked element: text=Start Testing
+[2025-09-25 19:47:29] [INFO]: Clicked 'Start Testing' button
+[2025-09-25 19:47:29] [INFO]: Attempting login with username: "admin"
+[2025-09-25 19:47:29] [INFO]: Filling input: #username with value: "admin" (delay: 0)
+[2025-09-25 19:47:29] [INFO]: Waiting for element to be visible: #username
+[2025-09-25 19:47:29] [INFO]: Element became visible: #username
+[2025-09-25 19:47:29] [INFO]: Input filled: #username
+[2025-09-25 19:47:29] [INFO]: Filling input: #password with value: "admin" (delay: 0)
+[2025-09-25 19:47:29] [INFO]: Waiting for element to be visible: #password
+[2025-09-25 19:47:29] [INFO]: Element became visible: #password
+[2025-09-25 19:47:29] [INFO]: Input filled: #password
+[2025-09-25 19:47:29] [INFO]: Clicking element: button[aria-label='Submit login']
+[2025-09-25 19:47:29] [INFO]: Clicked element: button[aria-label='Submit login']
+[2025-09-25 19:47:29] [INFO]: Login button clicked
+[2025-09-25 19:47:29] [INFO]: User "undefined" logged in successfully
+[2025-09-25 19:47:29] [INFO]: Step: Verifying welcome message with username
+[2025-09-25 19:47:29] [INFO]: Verifying welcome message
+[2025-09-25 19:47:29] [INFO]: Verifying text for .text-lg.font-bold, expecting "Welcome, Admin!"
+[2025-09-25 19:47:29] [INFO]: Verified text for .text-lg.font-bold: "Welcome, Admin!"
+[2025-09-25 19:47:29] [INFO]: Verified welcome message for user: Admin
+[2025-09-25 19:47:29] [INFO]: Step: I navigate to the Add a New Book page
+[2025-09-25 19:47:29] [INFO]: Clicking 'Add Book' button
+[2025-09-25 19:47:29] [INFO]: Verifying Add Book page is displayed
+[2025-09-25 19:47:29] [INFO]: Verifying text for [id='add-book-heading'], expecting "Add a New Book"
+[2025-09-25 19:47:29] [INFO]: Verified text for [id='add-book-heading']: "Add a New Book"
+[2025-09-25 19:47:29] [INFO]: Add Book page verified
+[2025-09-25 19:47:29] [INFO]: Step: I click the Add Book button
+[2025-09-25 19:47:29] [INFO]: Clicking 'Add Book' button
+[2025-09-25 19:47:29] [INFO]: Clicking element: button[aria-label='Submit Add New Book Form']
+[2025-09-25 19:47:29] [INFO]: Clicked element: button[aria-label='Submit Add New Book Form']
+[2025-09-25 19:47:29] [INFO]: Add Book button clicked
+[2025-09-25 19:47:29] [INFO]: Step: Verify error message summary is displayed
+[2025-09-25 19:47:29] [INFO]: Verifying error summary messages
+[2025-09-25 19:47:29] [INFO]: Getting locator for: div[role='alert']
+[2025-09-25 19:47:29] [INFO]: Error summary validation passed
+[2025-09-25 19:47:29] [INFO]: Error message summary verified
+[2025-09-25 19:47:29] [INFO]: Step: Verify validation error messages
+[2025-09-25 19:47:29] [INFO]: Verifying empty field errors using DataTable
+[2025-09-25 19:47:29] [INFO]: Collecting field-level validation errors
+[2025-09-25 19:47:29] [INFO]: Getting locator for: p[role="alert"], [id$="-error"]
+[2025-09-25 19:47:29] [INFO]: Validation error on [title]: "Title is required."
+[2025-09-25 19:47:29] [INFO]: Validation error on [author]: "Author is required."
+[2025-09-25 19:47:29] [INFO]: Validation error on [genre]: "Genre is required."
+[2025-09-25 19:47:29] [INFO]: Validation error on [isbn]: "ISBN is required."
+[2025-09-25 19:47:29] [INFO]: Validation error on [publicationDate]: "Publication Date is required."
+[2025-09-25 19:47:29] [INFO]: Validation error on [price]: "Price is required."
+[2025-09-25 19:47:29] [INFO]: Verified validation for Author: "Author is required."
+[2025-09-25 19:47:29] [INFO]: Verified validation for Genre: "Genre is required."
+[2025-09-25 19:47:29] [INFO]: Verified validation for ISBN: "ISBN is required."
+[2025-09-25 19:47:29] [INFO]: Verified validation for Publication Date: "Publication Date is required."
+[2025-09-25 19:47:29] [INFO]: Verified validation for Price: "Price is required."
+[2025-09-25 19:47:29] [INFO]: Validation errors matched expected values
+[2025-09-25 19:47:29] [INFO]: Finished Scenario: "Submitting the form without entering any fields"
+[2025-09-25 19:47:29] [INFO]: Page closed.
+[2025-09-25 19:47:29] [INFO]: Browser context closed.
+[2025-09-25 19:47:30] [INFO]: Browser closed.
+[2025-09-25 19:47:30] [INFO]: Launching browser [chromium] | Headless: false
+[2025-09-25 19:47:31] [INFO]: Starting Scenario: "Title exceeds 20 maximum length limit"
+[2025-09-25 19:47:31] [INFO]: Step: Navigating to Welcome page: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:47:31] [INFO]: Navigating to URL: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:47:32] [INFO]: Waiting for 'Start Testing' button to be visible (up to 4 minutes)...
+[2025-09-25 19:47:32] [INFO]: Welcome page loaded successfully, 'Start Testing' button is visible.
+[2025-09-25 19:47:32] [INFO]: Start Testing" button appeared after 0.121s
+[2025-09-25 19:47:32] [INFO]: Step: Logging in with valid credentials
+[2025-09-25 19:47:32] [INFO]: Clicking 'Start Testing' button...
+[2025-09-25 19:47:32] [INFO]: Clicking element: text=Start Testing
+[2025-09-25 19:47:32] [INFO]: Clicked element: text=Start Testing
+[2025-09-25 19:47:32] [INFO]: Clicked 'Start Testing' button
+[2025-09-25 19:47:32] [INFO]: Attempting login with username: "admin"
+[2025-09-25 19:47:32] [INFO]: Filling input: #username with value: "admin" (delay: 0)
+[2025-09-25 19:47:32] [INFO]: Waiting for element to be visible: #username
+[2025-09-25 19:47:32] [INFO]: Element became visible: #username
+[2025-09-25 19:47:32] [INFO]: Input filled: #username
+[2025-09-25 19:47:32] [INFO]: Filling input: #password with value: "admin" (delay: 0)
+[2025-09-25 19:47:32] [INFO]: Waiting for element to be visible: #password
+[2025-09-25 19:47:32] [INFO]: Element became visible: #password
+[2025-09-25 19:47:32] [INFO]: Input filled: #password
+[2025-09-25 19:47:32] [INFO]: Clicking element: button[aria-label='Submit login']
+[2025-09-25 19:47:32] [INFO]: Clicked element: button[aria-label='Submit login']
+[2025-09-25 19:47:32] [INFO]: Login button clicked
+[2025-09-25 19:47:32] [INFO]: User "undefined" logged in successfully
+[2025-09-25 19:47:32] [INFO]: Step: Verifying welcome message with username
+[2025-09-25 19:47:32] [INFO]: Verifying welcome message
+[2025-09-25 19:47:32] [INFO]: Verifying text for .text-lg.font-bold, expecting "Welcome, Admin!"
+[2025-09-25 19:47:32] [INFO]: Verified text for .text-lg.font-bold: "Welcome, Admin!"
+[2025-09-25 19:47:32] [INFO]: Verified welcome message for user: Admin
+[2025-09-25 19:47:32] [INFO]: Step: I navigate to the Add a New Book page
+[2025-09-25 19:47:32] [INFO]: Clicking 'Add Book' button
+[2025-09-25 19:47:32] [INFO]: Verifying Add Book page is displayed
+[2025-09-25 19:47:32] [INFO]: Verifying text for [id='add-book-heading'], expecting "Add a New Book"
+[2025-09-25 19:47:32] [INFO]: Verified text for [id='add-book-heading']: "Add a New Book"
+[2025-09-25 19:47:32] [INFO]: Add Book page verified
+[2025-09-25 19:47:32] [INFO]: Step: I add a new book with title length = 21
+[2025-09-25 19:47:32] [INFO]: Generating new book with title length 21
+[2025-09-25 19:47:32] [INFO]: Generated random title [length=21]: extractconfiscatesymp
+[2025-09-25 19:47:32] [INFO]: Generated future date (+60 days): 24/11/2025
+[2025-09-25 19:47:32] [INFO]: Adding book: {"title":"extractconfiscatesymp","author":"Lula Metz","genre":"Non-Fiction","publicationDate":"24/11/2025","isbn":"9615126282","price":"10.45"}
+[2025-09-25 19:47:32] [INFO]: Filling input: #title with value: "extractconfiscatesymp" (delay: 0)
+[2025-09-25 19:47:32] [INFO]: Waiting for element to be visible: #title
+[2025-09-25 19:47:32] [INFO]: Element became visible: #title
+[2025-09-25 19:47:33] [INFO]: Input filled: #title
+[2025-09-25 19:47:33] [INFO]: Selecting option "Non-Fiction" from dropdown: #genre
+[2025-09-25 19:47:33] [INFO]: Selected option "Non-Fiction"
+[2025-09-25 19:47:33] [INFO]: Filling input: #publicationDate with value: "24/11/2025" (delay: 100)
+[2025-09-25 19:47:33] [INFO]: Waiting for element to be visible: #publicationDate
+[2025-09-25 19:47:33] [INFO]: Element became visible: #publicationDate
+[2025-09-25 19:47:34] [INFO]: Input filled: #publicationDate
+[2025-09-25 19:47:34] [INFO]: Filling input: #isbn with value: "9615126282" (delay: 0)
+[2025-09-25 19:47:34] [INFO]: Waiting for element to be visible: #isbn
+[2025-09-25 19:47:34] [INFO]: Element became visible: #isbn
+[2025-09-25 19:47:34] [INFO]: Input filled: #isbn
+[2025-09-25 19:47:34] [INFO]: Filling input: #price with value: "10.45" (delay: 0)
+[2025-09-25 19:47:34] [INFO]: Waiting for element to be visible: #price
+[2025-09-25 19:47:34] [INFO]: Element became visible: #price
+[2025-09-25 19:47:34] [INFO]: Input filled: #price
+[2025-09-25 19:47:34] [INFO]: Filling input: #author with value: "Lula Metz" (delay: 0)
+[2025-09-25 19:47:34] [INFO]: Waiting for element to be visible: #author
+[2025-09-25 19:47:34] [INFO]: Element became visible: #author
+[2025-09-25 19:47:34] [INFO]: Input filled: #author
+[2025-09-25 19:47:34] [INFO]: Clicking 'Add Book' button
+[2025-09-25 19:47:34] [INFO]: Clicking element: button[aria-label='Submit Add New Book Form']
+[2025-09-25 19:47:34] [INFO]: Clicked element: button[aria-label='Submit Add New Book Form']
+[2025-09-25 19:47:34] [INFO]: Book submitted: "extractconfiscatesymp"
+[2025-09-25 19:47:34] [INFO]: New book created: {"title":"extractconfiscatesymp","author":"Lula Metz","genre":"Non-Fiction","publicationDate":"24/11/2025","isbn":"9615126282","price":"10.45"}
+[2025-09-25 19:47:34] [INFO]: Step: I click the Add Book button
+[2025-09-25 19:47:34] [INFO]: Clicking 'Add Book' button
+[2025-09-25 19:47:34] [INFO]: Clicking element: button[aria-label='Submit Add New Book Form']
+[2025-09-25 19:47:34] [INFO]: Clicked element: button[aria-label='Submit Add New Book Form']
+[2025-09-25 19:47:34] [INFO]: Add Book button clicked
+[2025-09-25 19:47:34] [INFO]: Step: Verify title validation message = "Title cannot exceed 20 characters."
+[2025-09-25 19:47:34] [INFO]: Verifying title length error message
+[2025-09-25 19:47:34] [INFO]: Waiting for element to be visible: p[id='title-error']
+[2025-09-25 19:47:34] [INFO]: Element became visible: p[id='title-error']
+[2025-09-25 19:47:34] [INFO]: Verifying text for p[id='title-error'], expecting "Title cannot exceed 20 characters."
+[2025-09-25 19:47:34] [INFO]: Verified text for p[id='title-error']: "Title cannot exceed 20 characters."
+[2025-09-25 19:47:34] [INFO]: Title length error verified: "Title cannot exceed 20 characters."
+[2025-09-25 19:47:34] [INFO]: Validation message verified
+[2025-09-25 19:47:34] [INFO]: Finished Scenario: "Title exceeds 20 maximum length limit"
+[2025-09-25 19:47:34] [INFO]: Page closed.
+[2025-09-25 19:47:34] [INFO]: Browser context closed.
+[2025-09-25 19:47:34] [INFO]: Browser closed.
+[2025-09-25 19:47:34] [INFO]: Launching browser [chromium] | Headless: false
+[2025-09-25 19:47:35] [INFO]: Starting Scenario: "Full CRUD flow for a book"
+[2025-09-25 19:47:35] [INFO]: Step: Navigating to Welcome page: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:47:35] [INFO]: Navigating to URL: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:47:36] [INFO]: Waiting for 'Start Testing' button to be visible (up to 4 minutes)...
+[2025-09-25 19:47:36] [INFO]: Welcome page loaded successfully, 'Start Testing' button is visible.
+[2025-09-25 19:47:36] [INFO]: Start Testing" button appeared after 0.114s
+[2025-09-25 19:47:36] [INFO]: Step: Logging in with valid credentials
+[2025-09-25 19:47:36] [INFO]: Clicking 'Start Testing' button...
+[2025-09-25 19:47:36] [INFO]: Clicking element: text=Start Testing
+[2025-09-25 19:47:36] [INFO]: Clicked element: text=Start Testing
+[2025-09-25 19:47:36] [INFO]: Clicked 'Start Testing' button
+[2025-09-25 19:47:36] [INFO]: Attempting login with username: "admin"
+[2025-09-25 19:47:36] [INFO]: Filling input: #username with value: "admin" (delay: 0)
+[2025-09-25 19:47:36] [INFO]: Waiting for element to be visible: #username
+[2025-09-25 19:47:36] [INFO]: Element became visible: #username
+[2025-09-25 19:47:37] [INFO]: Input filled: #username
+[2025-09-25 19:47:37] [INFO]: Filling input: #password with value: "admin" (delay: 0)
+[2025-09-25 19:47:37] [INFO]: Waiting for element to be visible: #password
+[2025-09-25 19:47:37] [INFO]: Element became visible: #password
+[2025-09-25 19:47:37] [INFO]: Input filled: #password
+[2025-09-25 19:47:37] [INFO]: Clicking element: button[aria-label='Submit login']
+[2025-09-25 19:47:37] [INFO]: Clicked element: button[aria-label='Submit login']
+[2025-09-25 19:47:37] [INFO]: Login button clicked
+[2025-09-25 19:47:37] [INFO]: User "undefined" logged in successfully
+[2025-09-25 19:47:37] [INFO]: Step: Verifying welcome message with username
+[2025-09-25 19:47:37] [INFO]: Verifying welcome message
+[2025-09-25 19:47:37] [INFO]: Verifying text for .text-lg.font-bold, expecting "Welcome, Admin!"
+[2025-09-25 19:47:37] [INFO]: Verified text for .text-lg.font-bold: "Welcome, Admin!"
+[2025-09-25 19:47:37] [INFO]: Verified welcome message for user: Admin
+[2025-09-25 19:47:37] [INFO]: Total books count : 3
+[2025-09-25 19:47:37] [INFO]: Step: I navigate to the Add a New Book page
+[2025-09-25 19:47:37] [INFO]: Clicking 'Add Book' button
+[2025-09-25 19:47:37] [INFO]: Verifying Add Book page is displayed
+[2025-09-25 19:47:37] [INFO]: Verifying text for [id='add-book-heading'], expecting "Add a New Book"
+[2025-09-25 19:47:37] [INFO]: Verified text for [id='add-book-heading']: "Add a New Book"
+[2025-09-25 19:47:37] [INFO]: Add Book page verified
+[2025-09-25 19:47:37] [INFO]: Step: I add a new book with title length = 20
+[2025-09-25 19:47:37] [INFO]: Generating new book with title length 20
+[2025-09-25 19:47:37] [INFO]: Generated random title [length=20]: absentmindedlymonthl
+[2025-09-25 19:47:37] [INFO]: Generated future date (+60 days): 24/11/2025
+[2025-09-25 19:47:37] [INFO]: Adding book: {"title":"absentmindedlymonthl","author":"Mr. Edgar Bruen","genre":"Biography","publicationDate":"24/11/2025","isbn":"5862536772","price":"10.15"}
+[2025-09-25 19:47:37] [INFO]: Filling input: #title with value: "absentmindedlymonthl" (delay: 0)
+[2025-09-25 19:47:37] [INFO]: Waiting for element to be visible: #title
+[2025-09-25 19:47:37] [INFO]: Element became visible: #title
+[2025-09-25 19:47:37] [INFO]: Input filled: #title
+[2025-09-25 19:47:37] [INFO]: Selecting option "Biography" from dropdown: #genre
+[2025-09-25 19:47:37] [INFO]: Selected option "Biography"
+[2025-09-25 19:47:37] [INFO]: Filling input: #publicationDate with value: "24/11/2025" (delay: 100)
+[2025-09-25 19:47:37] [INFO]: Waiting for element to be visible: #publicationDate
+[2025-09-25 19:47:37] [INFO]: Element became visible: #publicationDate
+[2025-09-25 19:47:38] [INFO]: Input filled: #publicationDate
+[2025-09-25 19:47:38] [INFO]: Filling input: #isbn with value: "5862536772" (delay: 0)
+[2025-09-25 19:47:38] [INFO]: Waiting for element to be visible: #isbn
+[2025-09-25 19:47:38] [INFO]: Element became visible: #isbn
+[2025-09-25 19:47:38] [INFO]: Input filled: #isbn
+[2025-09-25 19:47:38] [INFO]: Filling input: #price with value: "10.15" (delay: 0)
+[2025-09-25 19:47:38] [INFO]: Waiting for element to be visible: #price
+[2025-09-25 19:47:38] [INFO]: Element became visible: #price
+[2025-09-25 19:47:38] [INFO]: Input filled: #price
+[2025-09-25 19:47:38] [INFO]: Filling input: #author with value: "Mr. Edgar Bruen" (delay: 0)
+[2025-09-25 19:47:38] [INFO]: Waiting for element to be visible: #author
+[2025-09-25 19:47:38] [INFO]: Element became visible: #author
+[2025-09-25 19:47:38] [INFO]: Input filled: #author
+[2025-09-25 19:47:38] [INFO]: Clicking 'Add Book' button
+[2025-09-25 19:47:38] [INFO]: Clicking element: button[aria-label='Submit Add New Book Form']
+[2025-09-25 19:47:38] [INFO]: Clicked element: button[aria-label='Submit Add New Book Form']
+[2025-09-25 19:47:38] [INFO]: Book submitted: "absentmindedlymonthl"
+[2025-09-25 19:47:38] [INFO]: New book created: {"title":"absentmindedlymonthl","author":"Mr. Edgar Bruen","genre":"Biography","publicationDate":"24/11/2025","isbn":"5862536772","price":"10.15"}
+[2025-09-25 19:47:38] [INFO]: Step: Verify new book is visible in catalog: absentmindedlymonthl
+[2025-09-25 19:47:38] [INFO]: Verifying book is present: absentmindedlymonthl
+[2025-09-25 19:47:38] [INFO]: Waiting for element to be visible: tr:has(td:text-is("absentmindedlymonthl"))
+[2025-09-25 19:47:38] [INFO]: Element became visible: tr:has(td:text-is("absentmindedlymonthl"))
+[2025-09-25 19:47:38] [INFO]: Getting locator for: tr:has(td:text-is("absentmindedlymonthl"))
+[2025-09-25 19:47:38] [INFO]: Asserting equality: actual=[absentmindedlymonthl], expected=[absentmindedlymonthl]
+[2025-09-25 19:47:38] [INFO]: Assertion passed: expected [absentmindedlymonthl] and received [absentmindedlymonthl]
+[2025-09-25 19:47:38] [INFO]: Asserting equality: actual=[Mr. Edgar Bruen], expected=[Mr. Edgar Bruen]
+[2025-09-25 19:47:38] [INFO]: Assertion passed: expected [Mr. Edgar Bruen] and received [Mr. Edgar Bruen]
+[2025-09-25 19:47:38] [INFO]: Asserting equality: actual=[Biography], expected=[Biography]
+[2025-09-25 19:47:38] [INFO]: Assertion passed: expected [Biography] and received [Biography]
+[2025-09-25 19:47:38] [INFO]: Asserting equality: actual=[5862536772], expected=[5862536772]
+[2025-09-25 19:47:38] [INFO]: Assertion passed: expected [5862536772] and received [5862536772]
+[2025-09-25 19:47:38] [INFO]: Asserting equality: actual=[24/11/2025], expected=[24/11/2025]
+[2025-09-25 19:47:38] [INFO]: Assertion passed: expected [24/11/2025] and received [24/11/2025]
+[2025-09-25 19:47:38] [INFO]: Asserting equality: actual=[10.15], expected=[10.15]
+[2025-09-25 19:47:38] [INFO]: Assertion passed: expected [10.15] and received [10.15]
+[2025-09-25 19:47:38] [INFO]: Verified all details for book: absentmindedlymonthl
+[2025-09-25 19:47:38] [INFO]: Step: Verify book count increased by 1
+[2025-09-25 19:47:38] [INFO]: Verifying book count increased
+[2025-09-25 19:47:38] [INFO]: Total books count : 4
+[2025-09-25 19:47:38] [INFO]: Initial count: 3, New count: 4
+[2025-09-25 19:47:38] [INFO]: Asserting equality: actual=[4], expected=[4]
+[2025-09-25 19:47:38] [INFO]: Assertion passed: expected [4] and received [4]
+[2025-09-25 19:47:38] [INFO]: Book count increased by 1
+[2025-09-25 19:47:38] [INFO]: Step: Verify book count matches catalog row count
+[2025-09-25 19:47:38] [INFO]: Verifying book count matches catalog rows
+[2025-09-25 19:47:38] [INFO]: Count for table tbody tr: 4
+[2025-09-25 19:47:38] [INFO]: Total books count : 4
+[2025-09-25 19:47:38] [INFO]: Book count displayed: 4
+[2025-09-25 19:47:38] [INFO]: Row count in catalog: 4
+[2025-09-25 19:47:38] [INFO]: Asserting equality: actual=[4], expected=[4]
+[2025-09-25 19:47:38] [INFO]: Assertion passed: expected [4] and received [4]
+[2025-09-25 19:47:38] [INFO]: Book count matches catalog rows
+[2025-09-25 19:47:38] [INFO]: Step: Updating book title from "absentmindedlymonthl" to "Updated Smoke Test Title"
+[2025-09-25 19:47:38] [INFO]: Clicking edit for book: absentmindedlymonthl
+[2025-09-25 19:47:38] [INFO]: Edit clicked for book: absentmindedlymonthl
+[2025-09-25 19:47:38] [INFO]: Updating book title to: "Updated Smoke Test Title"
+[2025-09-25 19:47:38] [INFO]: Filling input: input[name='title'] with value: "Updated Smoke Test Title" (delay: 0)
+[2025-09-25 19:47:38] [INFO]: Waiting for element to be visible: input[name='title']
+[2025-09-25 19:47:38] [INFO]: Element became visible: input[name='title']
+[2025-09-25 19:47:38] [INFO]: Input filled: input[name='title']
+[2025-09-25 19:47:38] [INFO]: Book title updated
+[2025-09-25 19:47:38] [INFO]: Saving updated book details
+[2025-09-25 19:47:38] [INFO]: Clicking element: button[type='submit']
+[2025-09-25 19:47:38] [INFO]: Clicked element: button[type='submit']
+[2025-09-25 19:47:38] [INFO]: Changes saved successfully
+[2025-09-25 19:47:38] [INFO]: Book title updated to "Updated Smoke Test Title" and saved
+[2025-09-25 19:47:38] [INFO]: Step: Updating price for "Updated Smoke Test Title" to "42.00"
+[2025-09-25 19:47:38] [INFO]: Clicking edit for book: Updated Smoke Test Title
+[2025-09-25 19:47:38] [INFO]: Edit clicked for book: Updated Smoke Test Title
+[2025-09-25 19:47:38] [INFO]: Updating book price to: "42.00"
+[2025-09-25 19:47:38] [INFO]: Filling input: input[name='price'] with value: "42.00" (delay: 0)
+[2025-09-25 19:47:38] [INFO]: Waiting for element to be visible: input[name='price']
+[2025-09-25 19:47:38] [INFO]: Element became visible: input[name='price']
+[2025-09-25 19:47:38] [INFO]: Input filled: input[name='price']
+[2025-09-25 19:47:38] [INFO]: Book price updated
+[2025-09-25 19:47:38] [INFO]: Saving updated book details
+[2025-09-25 19:47:38] [INFO]: Clicking element: button[type='submit']
+[2025-09-25 19:47:39] [INFO]: Clicked element: button[type='submit']
+[2025-09-25 19:47:39] [INFO]: Changes saved successfully
+[2025-09-25 19:47:39] [INFO]: Book price updated to "42.00" and saved
+[2025-09-25 19:47:39] [INFO]: Step: Verifying updated book "Updated Smoke Test Title" with price "42.00" in catalog
+[2025-09-25 19:47:39] [INFO]: Verifying book is present: Updated Smoke Test Title
+[2025-09-25 19:47:39] [INFO]: Waiting for element to be visible: tr:has(td:text-is("Updated Smoke Test Title"))
+[2025-09-25 19:47:39] [INFO]: Element became visible: tr:has(td:text-is("Updated Smoke Test Title"))
+[2025-09-25 19:47:39] [INFO]: Getting locator for: tr:has(td:text-is("Updated Smoke Test Title"))
+[2025-09-25 19:47:39] [INFO]: Asserting equality: actual=[Updated Smoke Test Title], expected=[Updated Smoke Test Title]
+[2025-09-25 19:47:39] [INFO]: Assertion passed: expected [Updated Smoke Test Title] and received [Updated Smoke Test Title]
+[2025-09-25 19:47:39] [INFO]: Asserting equality: actual=[Mr. Edgar Bruen], expected=[Mr. Edgar Bruen]
+[2025-09-25 19:47:39] [INFO]: Assertion passed: expected [Mr. Edgar Bruen] and received [Mr. Edgar Bruen]
+[2025-09-25 19:47:39] [INFO]: Asserting equality: actual=[Biography], expected=[Biography]
+[2025-09-25 19:47:39] [INFO]: Assertion passed: expected [Biography] and received [Biography]
+[2025-09-25 19:47:39] [INFO]: Asserting equality: actual=[5862536772], expected=[5862536772]
+[2025-09-25 19:47:39] [INFO]: Assertion passed: expected [5862536772] and received [5862536772]
+[2025-09-25 19:47:39] [INFO]: Asserting equality: actual=[24/11/2025], expected=[24/11/2025]
+[2025-09-25 19:47:39] [INFO]: Assertion passed: expected [24/11/2025] and received [24/11/2025]
+[2025-09-25 19:47:39] [INFO]: Asserting equality: actual=[42.00], expected=[42.00]
+[2025-09-25 19:47:39] [INFO]: Assertion passed: expected [42.00] and received [42.00]
+[2025-09-25 19:47:39] [INFO]: Verified all details for book: Updated Smoke Test Title
+[2025-09-25 19:47:39] [INFO]: Verified book shows updated title and price in catalog
+[2025-09-25 19:47:39] [INFO]: Step: Deleting book "Updated Smoke Test Title" from catalog
+[2025-09-25 19:47:39] [INFO]: Total books count : 4
+[2025-09-25 19:47:39] [INFO]: Current total after deletion: 4
+[2025-09-25 19:47:39] [INFO]: Clicking delete for book: Updated Smoke Test Title
+[2025-09-25 19:47:39] [INFO]: Delete clicked for book: Updated Smoke Test Title
+[2025-09-25 19:47:39] [INFO]: Book "Updated Smoke Test Title" deletion triggered
+[2025-09-25 19:47:39] [INFO]: Step: Verify book "Updated Smoke Test Title" is not present in catalog
+[2025-09-25 19:47:39] [INFO]: Verifying book is NOT present: Updated Smoke Test Title
+[2025-09-25 19:47:39] [INFO]: Waiting for element to be NOT visible: locator('tr:has(td:text-is("Updated Smoke Test Title"))')
+[2025-09-25 19:47:39] [INFO]: Element not visible as expected: locator('tr:has(td:text-is("Updated Smoke Test Title"))')
+[2025-09-25 19:47:39] [INFO]: Verified book is not present: Updated Smoke Test Title
+[2025-09-25 19:47:39] [INFO]: Step: Verify book count matches catalog row count
+[2025-09-25 19:47:39] [INFO]: Verifying book count matches catalog rows
+[2025-09-25 19:47:39] [INFO]: Count for table tbody tr: 3
+[2025-09-25 19:47:39] [INFO]: Total books count : 3
+[2025-09-25 19:47:39] [INFO]: Book count displayed: 3
+[2025-09-25 19:47:39] [INFO]: Row count in catalog: 3
+[2025-09-25 19:47:39] [INFO]: Asserting equality: actual=[3], expected=[3]
+[2025-09-25 19:47:39] [INFO]: Assertion passed: expected [3] and received [3]
+[2025-09-25 19:47:39] [INFO]: Book count matches catalog rows
+[2025-09-25 19:47:39] [INFO]: Step: Verify book count decreased by 1
+[2025-09-25 19:47:39] [INFO]: Verifying book count decreased
+[2025-09-25 19:47:39] [INFO]: Total books count : 3
+[2025-09-25 19:47:39] [INFO]: Initial count: 4, New count: 3
+[2025-09-25 19:47:39] [INFO]: Asserting equality: actual=[3], expected=[3]
+[2025-09-25 19:47:39] [INFO]: Assertion passed: expected [3] and received [3]
+[2025-09-25 19:47:39] [INFO]: Book count decreased by 1
+[2025-09-25 19:47:39] [INFO]: Book count decreased as expected
+[2025-09-25 19:47:39] [INFO]: Finished Scenario: "Full CRUD flow for a book"
+[2025-09-25 19:47:39] [INFO]: Page closed.
+[2025-09-25 19:47:39] [INFO]: Browser context closed.
+[2025-09-25 19:47:39] [INFO]: Browser closed.
+[2025-09-25 19:47:39] [INFO]: Launching browser [chromium] | Headless: false
+[2025-09-25 19:47:40] [INFO]: Starting Scenario: "Welcome message and logout button are visible"
+[2025-09-25 19:47:40] [INFO]: Step: Navigating to Welcome page: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:47:40] [INFO]: Navigating to URL: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:47:41] [INFO]: Waiting for 'Start Testing' button to be visible (up to 4 minutes)...
+[2025-09-25 19:47:41] [INFO]: Welcome page loaded successfully, 'Start Testing' button is visible.
+[2025-09-25 19:47:41] [INFO]: Start Testing" button appeared after 0.115s
+[2025-09-25 19:47:41] [INFO]: Step: Logging in with valid credentials
+[2025-09-25 19:47:41] [INFO]: Clicking 'Start Testing' button...
+[2025-09-25 19:47:41] [INFO]: Clicking element: text=Start Testing
+[2025-09-25 19:47:41] [INFO]: Clicked element: text=Start Testing
+[2025-09-25 19:47:41] [INFO]: Clicked 'Start Testing' button
+[2025-09-25 19:47:41] [INFO]: Attempting login with username: "admin"
+[2025-09-25 19:47:41] [INFO]: Filling input: #username with value: "admin" (delay: 0)
+[2025-09-25 19:47:41] [INFO]: Waiting for element to be visible: #username
+[2025-09-25 19:47:41] [INFO]: Element became visible: #username
+[2025-09-25 19:47:41] [INFO]: Input filled: #username
+[2025-09-25 19:47:41] [INFO]: Filling input: #password with value: "admin" (delay: 0)
+[2025-09-25 19:47:41] [INFO]: Waiting for element to be visible: #password
+[2025-09-25 19:47:41] [INFO]: Element became visible: #password
+[2025-09-25 19:47:41] [INFO]: Input filled: #password
+[2025-09-25 19:47:41] [INFO]: Clicking element: button[aria-label='Submit login']
+[2025-09-25 19:47:42] [INFO]: Clicked element: button[aria-label='Submit login']
+[2025-09-25 19:47:42] [INFO]: Login button clicked
+[2025-09-25 19:47:42] [INFO]: User "undefined" logged in successfully
+[2025-09-25 19:47:42] [INFO]: Step: Verifying welcome message with username
+[2025-09-25 19:47:42] [INFO]: Verifying welcome message
+[2025-09-25 19:47:42] [INFO]: Verifying text for .text-lg.font-bold, expecting "Welcome, Admin!"
+[2025-09-25 19:47:42] [INFO]: Verified text for .text-lg.font-bold: "Welcome, Admin!"
+[2025-09-25 19:47:42] [INFO]: Verified welcome message for user: Admin
+[2025-09-25 19:47:42] [INFO]: Step: Verify Logout button is visible
+[2025-09-25 19:47:42] [INFO]: Checking if logout button is visible
+[2025-09-25 19:47:42] [INFO]: Waiting for element to be visible: button:has-text('Log Out')
+[2025-09-25 19:47:42] [INFO]: Element became visible: button:has-text('Log Out')
+[2025-09-25 19:47:42] [INFO]: Logout button is visible
+[2025-09-25 19:47:42] [INFO]: Finished Scenario: "Welcome message and logout button are visible"
+[2025-09-25 19:47:42] [INFO]: Page closed.
+[2025-09-25 19:47:42] [INFO]: Browser context closed.
+[2025-09-25 19:47:42] [INFO]: Browser closed.
+[2025-09-25 19:47:42] [INFO]: Launching browser [chromium] | Headless: false
+[2025-09-25 19:47:43] [INFO]: Starting Scenario: "Catalog row count matches total titles count"
+[2025-09-25 19:47:43] [INFO]: Step: Navigating to Welcome page: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:47:43] [INFO]: Navigating to URL: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:47:44] [INFO]: Waiting for 'Start Testing' button to be visible (up to 4 minutes)...
+[2025-09-25 19:47:44] [INFO]: Welcome page loaded successfully, 'Start Testing' button is visible.
+[2025-09-25 19:47:44] [INFO]: Start Testing" button appeared after 0.108s
+[2025-09-25 19:47:44] [INFO]: Step: Logging in with valid credentials
+[2025-09-25 19:47:44] [INFO]: Clicking 'Start Testing' button...
+[2025-09-25 19:47:44] [INFO]: Clicking element: text=Start Testing
+[2025-09-25 19:47:45] [INFO]: Clicked element: text=Start Testing
+[2025-09-25 19:47:45] [INFO]: Clicked 'Start Testing' button
+[2025-09-25 19:47:45] [INFO]: Attempting login with username: "admin"
+[2025-09-25 19:47:45] [INFO]: Filling input: #username with value: "admin" (delay: 0)
+[2025-09-25 19:47:45] [INFO]: Waiting for element to be visible: #username
+[2025-09-25 19:47:45] [INFO]: Element became visible: #username
+[2025-09-25 19:47:45] [INFO]: Input filled: #username
+[2025-09-25 19:47:45] [INFO]: Filling input: #password with value: "admin" (delay: 0)
+[2025-09-25 19:47:45] [INFO]: Waiting for element to be visible: #password
+[2025-09-25 19:47:45] [INFO]: Element became visible: #password
+[2025-09-25 19:47:45] [INFO]: Input filled: #password
+[2025-09-25 19:47:45] [INFO]: Clicking element: button[aria-label='Submit login']
+[2025-09-25 19:47:45] [INFO]: Clicked element: button[aria-label='Submit login']
+[2025-09-25 19:47:45] [INFO]: Login button clicked
+[2025-09-25 19:47:45] [INFO]: User "undefined" logged in successfully
+[2025-09-25 19:47:45] [INFO]: Total books count : 3
+[2025-09-25 19:47:45] [INFO]: Step: Verify book count matches catalog row count
+[2025-09-25 19:47:45] [INFO]: Verifying book count matches catalog rows
+[2025-09-25 19:47:45] [INFO]: Count for table tbody tr: 3
+[2025-09-25 19:47:45] [INFO]: Total books count : 3
+[2025-09-25 19:47:45] [INFO]: Book count displayed: 3
+[2025-09-25 19:47:45] [INFO]: Row count in catalog: 3
+[2025-09-25 19:47:45] [INFO]: Asserting equality: actual=[3], expected=[3]
+[2025-09-25 19:47:45] [INFO]: Assertion passed: expected [3] and received [3]
+[2025-09-25 19:47:45] [INFO]: Book count matches catalog rows
+[2025-09-25 19:47:45] [INFO]: Finished Scenario: "Catalog row count matches total titles count"
+[2025-09-25 19:47:45] [INFO]: Page closed.
+[2025-09-25 19:47:45] [INFO]: Browser context closed.
+[2025-09-25 19:47:45] [INFO]: Browser closed.
+[2025-09-25 19:47:45] [INFO]: Launching browser [chromium] | Headless: false
+[2025-09-25 19:47:46] [INFO]: Starting Scenario: "User can log out successfully"
+[2025-09-25 19:47:46] [INFO]: Step: Navigating to Welcome page: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:47:46] [INFO]: Navigating to URL: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:47:47] [INFO]: Waiting for 'Start Testing' button to be visible (up to 4 minutes)...
+[2025-09-25 19:47:47] [INFO]: Welcome page loaded successfully, 'Start Testing' button is visible.
+[2025-09-25 19:47:47] [INFO]: Start Testing" button appeared after 0.114s
+[2025-09-25 19:47:47] [INFO]: Step: Logging in with valid credentials
+[2025-09-25 19:47:47] [INFO]: Clicking 'Start Testing' button...
+[2025-09-25 19:47:47] [INFO]: Clicking element: text=Start Testing
+[2025-09-25 19:47:48] [INFO]: Clicked element: text=Start Testing
+[2025-09-25 19:47:48] [INFO]: Clicked 'Start Testing' button
+[2025-09-25 19:47:48] [INFO]: Attempting login with username: "admin"
+[2025-09-25 19:47:48] [INFO]: Filling input: #username with value: "admin" (delay: 0)
+[2025-09-25 19:47:48] [INFO]: Waiting for element to be visible: #username
+[2025-09-25 19:47:48] [INFO]: Element became visible: #username
+[2025-09-25 19:47:48] [INFO]: Input filled: #username
+[2025-09-25 19:47:48] [INFO]: Filling input: #password with value: "admin" (delay: 0)
+[2025-09-25 19:47:48] [INFO]: Waiting for element to be visible: #password
+[2025-09-25 19:47:48] [INFO]: Element became visible: #password
+[2025-09-25 19:47:48] [INFO]: Input filled: #password
+[2025-09-25 19:47:48] [INFO]: Clicking element: button[aria-label='Submit login']
+[2025-09-25 19:47:48] [INFO]: Clicked element: button[aria-label='Submit login']
+[2025-09-25 19:47:48] [INFO]: Login button clicked
+[2025-09-25 19:47:48] [INFO]: User "undefined" logged in successfully
+[2025-09-25 19:47:48] [INFO]: Step: Click the Logout button
+[2025-09-25 19:47:48] [INFO]: Clicking logout button
+[2025-09-25 19:47:48] [INFO]: Logout clicked
+[2025-09-25 19:47:48] [INFO]: Step: Verify navigation to login page
+[2025-09-25 19:47:48] [INFO]: Getting locator for: button[aria-label='Submit login']
+[2025-09-25 19:47:50] [ERROR]: Step failed – screenshot saved: reports/screenshots/FAILED_2025-09-25T18-47-50-215Z.png
+[2025-09-25 19:47:50] [INFO]: Finished Scenario: "User can log out successfully"
+[2025-09-25 19:47:50] [INFO]: Page closed.
+[2025-09-25 19:47:50] [INFO]: Browser context closed.
+[2025-09-25 19:47:50] [INFO]: Browser closed.
+[2025-09-25 19:47:50] [INFO]: Launching browser [chromium] | Headless: false
+[2025-09-25 19:47:51] [INFO]: Starting Scenario: "Delete an existing book successfully"
+[2025-09-25 19:47:51] [INFO]: Step: Navigating to Welcome page: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:47:51] [INFO]: Navigating to URL: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:47:53] [INFO]: Waiting for 'Start Testing' button to be visible (up to 4 minutes)...
+[2025-09-25 19:47:53] [INFO]: Welcome page loaded successfully, 'Start Testing' button is visible.
+[2025-09-25 19:47:53] [INFO]: Start Testing" button appeared after 0.121s
+[2025-09-25 19:47:53] [INFO]: Step: Logging in with valid credentials
+[2025-09-25 19:47:53] [INFO]: Clicking 'Start Testing' button...
+[2025-09-25 19:47:53] [INFO]: Clicking element: text=Start Testing
+[2025-09-25 19:47:53] [INFO]: Clicked element: text=Start Testing
+[2025-09-25 19:47:53] [INFO]: Clicked 'Start Testing' button
+[2025-09-25 19:47:53] [INFO]: Attempting login with username: "admin"
+[2025-09-25 19:47:53] [INFO]: Filling input: #username with value: "admin" (delay: 0)
+[2025-09-25 19:47:53] [INFO]: Waiting for element to be visible: #username
+[2025-09-25 19:47:53] [INFO]: Element became visible: #username
+[2025-09-25 19:47:53] [INFO]: Input filled: #username
+[2025-09-25 19:47:53] [INFO]: Filling input: #password with value: "admin" (delay: 0)
+[2025-09-25 19:47:53] [INFO]: Waiting for element to be visible: #password
+[2025-09-25 19:47:53] [INFO]: Element became visible: #password
+[2025-09-25 19:47:53] [INFO]: Input filled: #password
+[2025-09-25 19:47:53] [INFO]: Clicking element: button[aria-label='Submit login']
+[2025-09-25 19:47:53] [INFO]: Clicked element: button[aria-label='Submit login']
+[2025-09-25 19:47:53] [INFO]: Login button clicked
+[2025-09-25 19:47:53] [INFO]: User "undefined" logged in successfully
+[2025-09-25 19:47:53] [INFO]: Step: Verifying welcome message with username
+[2025-09-25 19:47:53] [INFO]: Verifying welcome message
+[2025-09-25 19:47:53] [INFO]: Verifying text for .text-lg.font-bold, expecting "Welcome, Admin!"
+[2025-09-25 19:47:53] [INFO]: Verified text for .text-lg.font-bold: "Welcome, Admin!"
+[2025-09-25 19:47:53] [INFO]: Verified welcome message for user: Admin
+[2025-09-25 19:47:53] [INFO]: Step: I navigate to the Add a New Book page
+[2025-09-25 19:47:53] [INFO]: Clicking 'Add Book' button
+[2025-09-25 19:47:53] [INFO]: Verifying Add Book page is displayed
+[2025-09-25 19:47:53] [INFO]: Verifying text for [id='add-book-heading'], expecting "Add a New Book"
+[2025-09-25 19:47:54] [INFO]: Verified text for [id='add-book-heading']: "Add a New Book"
+[2025-09-25 19:47:54] [INFO]: Add Book page verified
+[2025-09-25 19:47:54] [INFO]: Step: I add a new book with title length = 20
+[2025-09-25 19:47:54] [INFO]: Generating new book with title length 20
+[2025-09-25 19:47:54] [INFO]: Generated random title [length=20]: substitutionwhosetow
+[2025-09-25 19:47:54] [INFO]: Generated future date (+60 days): 24/11/2025
+[2025-09-25 19:47:54] [INFO]: Adding book: {"title":"substitutionwhosetow","author":"Julie Lehner","genre":"Science Fiction","publicationDate":"24/11/2025","isbn":"5088974115","price":"38.79"}
+[2025-09-25 19:47:54] [INFO]: Filling input: #title with value: "substitutionwhosetow" (delay: 0)
+[2025-09-25 19:47:54] [INFO]: Waiting for element to be visible: #title
+[2025-09-25 19:47:54] [INFO]: Element became visible: #title
+[2025-09-25 19:47:54] [INFO]: Input filled: #title
+[2025-09-25 19:47:54] [INFO]: Selecting option "Science Fiction" from dropdown: #genre
+[2025-09-25 19:47:54] [INFO]: Selected option "Science Fiction"
+[2025-09-25 19:47:54] [INFO]: Filling input: #publicationDate with value: "24/11/2025" (delay: 100)
+[2025-09-25 19:47:54] [INFO]: Waiting for element to be visible: #publicationDate
+[2025-09-25 19:47:54] [INFO]: Element became visible: #publicationDate
+[2025-09-25 19:47:55] [INFO]: Input filled: #publicationDate
+[2025-09-25 19:47:55] [INFO]: Filling input: #isbn with value: "5088974115" (delay: 0)
+[2025-09-25 19:47:55] [INFO]: Waiting for element to be visible: #isbn
+[2025-09-25 19:47:55] [INFO]: Element became visible: #isbn
+[2025-09-25 19:47:55] [INFO]: Input filled: #isbn
+[2025-09-25 19:47:55] [INFO]: Filling input: #price with value: "38.79" (delay: 0)
+[2025-09-25 19:47:55] [INFO]: Waiting for element to be visible: #price
+[2025-09-25 19:47:55] [INFO]: Element became visible: #price
+[2025-09-25 19:47:55] [INFO]: Input filled: #price
+[2025-09-25 19:47:55] [INFO]: Filling input: #author with value: "Julie Lehner" (delay: 0)
+[2025-09-25 19:47:55] [INFO]: Waiting for element to be visible: #author
+[2025-09-25 19:47:55] [INFO]: Element became visible: #author
+[2025-09-25 19:47:55] [INFO]: Input filled: #author
+[2025-09-25 19:47:55] [INFO]: Clicking 'Add Book' button
+[2025-09-25 19:47:55] [INFO]: Clicking element: button[aria-label='Submit Add New Book Form']
+[2025-09-25 19:47:55] [INFO]: Clicked element: button[aria-label='Submit Add New Book Form']
+[2025-09-25 19:47:55] [INFO]: Book submitted: "substitutionwhosetow"
+[2025-09-25 19:47:55] [INFO]: New book created: {"title":"substitutionwhosetow","author":"Julie Lehner","genre":"Science Fiction","publicationDate":"24/11/2025","isbn":"5088974115","price":"38.79"}
+[2025-09-25 19:47:55] [INFO]: Step: Deleting book "substitutionwhosetow" from catalog
+[2025-09-25 19:47:55] [INFO]: Total books count : 4
+[2025-09-25 19:47:55] [INFO]: Current total after deletion: 4
+[2025-09-25 19:47:55] [INFO]: Clicking delete for book: substitutionwhosetow
+[2025-09-25 19:47:55] [INFO]: Delete clicked for book: substitutionwhosetow
+[2025-09-25 19:47:55] [INFO]: Book "substitutionwhosetow" deletion triggered
+[2025-09-25 19:47:55] [INFO]: Step: Verify book "substitutionwhosetow" is not present in catalog
+[2025-09-25 19:47:55] [INFO]: Verifying book is NOT present: substitutionwhosetow
+[2025-09-25 19:47:55] [INFO]: Waiting for element to be NOT visible: locator('tr:has(td:text-is("substitutionwhosetow"))')
+[2025-09-25 19:47:55] [INFO]: Element not visible as expected: locator('tr:has(td:text-is("substitutionwhosetow"))')
+[2025-09-25 19:47:55] [INFO]: Verified book is not present: substitutionwhosetow
+[2025-09-25 19:47:55] [INFO]: Step: Verify book count matches catalog row count
+[2025-09-25 19:47:55] [INFO]: Verifying book count matches catalog rows
+[2025-09-25 19:47:55] [INFO]: Count for table tbody tr: 3
+[2025-09-25 19:47:55] [INFO]: Total books count : 3
+[2025-09-25 19:47:55] [INFO]: Book count displayed: 3
+[2025-09-25 19:47:55] [INFO]: Row count in catalog: 3
+[2025-09-25 19:47:55] [INFO]: Asserting equality: actual=[3], expected=[3]
+[2025-09-25 19:47:55] [INFO]: Assertion passed: expected [3] and received [3]
+[2025-09-25 19:47:55] [INFO]: Book count matches catalog rows
+[2025-09-25 19:47:55] [INFO]: Step: Verify book count decreased by 1
+[2025-09-25 19:47:55] [INFO]: Verifying book count decreased
+[2025-09-25 19:47:55] [INFO]: Total books count : 3
+[2025-09-25 19:47:55] [INFO]: Initial count: 4, New count: 3
+[2025-09-25 19:47:55] [INFO]: Asserting equality: actual=[3], expected=[3]
+[2025-09-25 19:47:55] [INFO]: Assertion passed: expected [3] and received [3]
+[2025-09-25 19:47:55] [INFO]: Book count decreased by 1
+[2025-09-25 19:47:55] [INFO]: Book count decreased as expected
+[2025-09-25 19:47:55] [INFO]: Finished Scenario: "Delete an existing book successfully"
+[2025-09-25 19:47:55] [INFO]: Page closed.
+[2025-09-25 19:47:55] [INFO]: Browser context closed.
+[2025-09-25 19:47:55] [INFO]: Browser closed.
+[2025-09-25 19:47:55] [INFO]: Launching browser [chromium] | Headless: false
+[2025-09-25 19:47:56] [INFO]: Starting Scenario: "Successful login with valid credentials"
+[2025-09-25 19:47:56] [INFO]: Step: Navigating to Welcome page: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:47:56] [INFO]: Navigating to URL: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:47:58] [INFO]: Waiting for 'Start Testing' button to be visible (up to 4 minutes)...
+[2025-09-25 19:47:58] [INFO]: Welcome page loaded successfully, 'Start Testing' button is visible.
+[2025-09-25 19:47:58] [INFO]: Start Testing" button appeared after 0.12s
+[2025-09-25 19:47:58] [INFO]: Step: Logging in with valid credentials
+[2025-09-25 19:47:58] [INFO]: Clicking 'Start Testing' button...
+[2025-09-25 19:47:58] [INFO]: Clicking element: text=Start Testing
+[2025-09-25 19:47:58] [INFO]: Clicked element: text=Start Testing
+[2025-09-25 19:47:58] [INFO]: Clicked 'Start Testing' button
+[2025-09-25 19:47:58] [INFO]: Attempting login with username: "admin"
+[2025-09-25 19:47:58] [INFO]: Filling input: #username with value: "admin" (delay: 0)
+[2025-09-25 19:47:58] [INFO]: Waiting for element to be visible: #username
+[2025-09-25 19:47:58] [INFO]: Element became visible: #username
+[2025-09-25 19:47:58] [INFO]: Input filled: #username
+[2025-09-25 19:47:58] [INFO]: Filling input: #password with value: "admin" (delay: 0)
+[2025-09-25 19:47:58] [INFO]: Waiting for element to be visible: #password
+[2025-09-25 19:47:58] [INFO]: Element became visible: #password
+[2025-09-25 19:47:58] [INFO]: Input filled: #password
+[2025-09-25 19:47:58] [INFO]: Clicking element: button[aria-label='Submit login']
+[2025-09-25 19:47:59] [INFO]: Clicked element: button[aria-label='Submit login']
+[2025-09-25 19:47:59] [INFO]: Login button clicked
+[2025-09-25 19:47:59] [INFO]: User "undefined" logged in successfully
+[2025-09-25 19:47:59] [INFO]: Step: Verifying welcome message with username
+[2025-09-25 19:47:59] [INFO]: Verifying welcome message
+[2025-09-25 19:47:59] [INFO]: Verifying text for .text-lg.font-bold, expecting "Welcome, Admin!"
+[2025-09-25 19:47:59] [INFO]: Verified text for .text-lg.font-bold: "Welcome, Admin!"
+[2025-09-25 19:47:59] [INFO]: Verified welcome message for user: Admin
+[2025-09-25 19:47:59] [INFO]: Finished Scenario: "Successful login with valid credentials"
+[2025-09-25 19:47:59] [INFO]: Page closed.
+[2025-09-25 19:47:59] [INFO]: Browser context closed.
+[2025-09-25 19:47:59] [INFO]: Browser closed.
+[2025-09-25 19:47:59] [INFO]: Launching browser [chromium] | Headless: false
+[2025-09-25 19:48:00] [INFO]: Starting Scenario: "Unsuccessful login with invalid credentials"
+[2025-09-25 19:48:00] [INFO]: Step: Navigating to Welcome page: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:48:00] [INFO]: Navigating to URL: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:48:01] [INFO]: Waiting for 'Start Testing' button to be visible (up to 4 minutes)...
+[2025-09-25 19:48:01] [INFO]: Welcome page loaded successfully, 'Start Testing' button is visible.
+[2025-09-25 19:48:01] [INFO]: Start Testing" button appeared after 0.113s
+[2025-09-25 19:48:01] [INFO]: Step: Attempting login with invalid credentials
+[2025-09-25 19:48:01] [INFO]: Clicking 'Start Testing' button...
+[2025-09-25 19:48:01] [INFO]: Clicking element: text=Start Testing
+[2025-09-25 19:48:01] [INFO]: Clicked element: text=Start Testing
+[2025-09-25 19:48:01] [INFO]: Clicked 'Start Testing' button
+[2025-09-25 19:48:01] [INFO]: Attempting login with username: "fakeUserName"
+[2025-09-25 19:48:01] [INFO]: Filling input: #username with value: "fakeUserName" (delay: 0)
+[2025-09-25 19:48:01] [INFO]: Waiting for element to be visible: #username
+[2025-09-25 19:48:01] [INFO]: Element became visible: #username
+[2025-09-25 19:48:01] [INFO]: Input filled: #username
+[2025-09-25 19:48:01] [INFO]: Filling input: #password with value: "fakeUserName" (delay: 0)
+[2025-09-25 19:48:01] [INFO]: Waiting for element to be visible: #password
+[2025-09-25 19:48:01] [INFO]: Element became visible: #password
+[2025-09-25 19:48:01] [INFO]: Input filled: #password
+[2025-09-25 19:48:01] [INFO]: Clicking element: button[aria-label='Submit login']
+[2025-09-25 19:48:01] [INFO]: Clicked element: button[aria-label='Submit login']
+[2025-09-25 19:48:01] [INFO]: Login button clicked
+[2025-09-25 19:48:01] [INFO]: Login attempted with invalid credentials
+[2025-09-25 19:48:01] [INFO]: Step: Verifying login error message
+[2025-09-25 19:48:01] [INFO]: Verifying login error message
+[2025-09-25 19:48:01] [INFO]: Verifying text for h3[class='font-bold'], expecting "There is a problem with your submission"
+[2025-09-25 19:48:01] [INFO]: Verified text for h3[class='font-bold']: "There is a problem with your submission"
+[2025-09-25 19:48:01] [INFO]: Verified login error message
+[2025-09-25 19:48:01] [INFO]: Finished Scenario: "Unsuccessful login with invalid credentials"
+[2025-09-25 19:48:01] [INFO]: Page closed.
+[2025-09-25 19:48:01] [INFO]: Browser context closed.
+[2025-09-25 19:48:02] [INFO]: Browser closed.
+[2025-09-25 19:48:02] [INFO]: Launching browser [chromium] | Headless: false
+[2025-09-25 19:48:03] [INFO]: Starting Scenario: "Update an existing book successfully"
+[2025-09-25 19:48:03] [INFO]: Step: Navigating to Welcome page: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:48:03] [INFO]: Navigating to URL: https://frontendui-librarysystem.onrender.com
+[2025-09-25 19:48:04] [INFO]: Waiting for 'Start Testing' button to be visible (up to 4 minutes)...
+[2025-09-25 19:48:04] [INFO]: Welcome page loaded successfully, 'Start Testing' button is visible.
+[2025-09-25 19:48:04] [INFO]: Start Testing" button appeared after 0.12s
+[2025-09-25 19:48:04] [INFO]: Step: Logging in with valid credentials
+[2025-09-25 19:48:04] [INFO]: Clicking 'Start Testing' button...
+[2025-09-25 19:48:04] [INFO]: Clicking element: text=Start Testing
+[2025-09-25 19:48:05] [INFO]: Clicked element: text=Start Testing
+[2025-09-25 19:48:05] [INFO]: Clicked 'Start Testing' button
+[2025-09-25 19:48:05] [INFO]: Attempting login with username: "admin"
+[2025-09-25 19:48:05] [INFO]: Filling input: #username with value: "admin" (delay: 0)
+[2025-09-25 19:48:05] [INFO]: Waiting for element to be visible: #username
+[2025-09-25 19:48:05] [INFO]: Element became visible: #username
+[2025-09-25 19:48:05] [INFO]: Input filled: #username
+[2025-09-25 19:48:05] [INFO]: Filling input: #password with value: "admin" (delay: 0)
+[2025-09-25 19:48:05] [INFO]: Waiting for element to be visible: #password
+[2025-09-25 19:48:05] [INFO]: Element became visible: #password
+[2025-09-25 19:48:05] [INFO]: Input filled: #password
+[2025-09-25 19:48:05] [INFO]: Clicking element: button[aria-label='Submit login']
+[2025-09-25 19:48:05] [INFO]: Clicked element: button[aria-label='Submit login']
+[2025-09-25 19:48:05] [INFO]: Login button clicked
+[2025-09-25 19:48:05] [INFO]: User "undefined" logged in successfully
+[2025-09-25 19:48:05] [INFO]: Step: Verifying welcome message with username
+[2025-09-25 19:48:05] [INFO]: Verifying welcome message
+[2025-09-25 19:48:05] [INFO]: Verifying text for .text-lg.font-bold, expecting "Welcome, Admin!"
+[2025-09-25 19:48:05] [INFO]: Verified text for .text-lg.font-bold: "Welcome, Admin!"
+[2025-09-25 19:48:05] [INFO]: Verified welcome message for user: Admin
+[2025-09-25 19:48:05] [INFO]: Step: I navigate to the Add a New Book page
+[2025-09-25 19:48:05] [INFO]: Clicking 'Add Book' button
+[2025-09-25 19:48:05] [INFO]: Verifying Add Book page is displayed
+[2025-09-25 19:48:05] [INFO]: Verifying text for [id='add-book-heading'], expecting "Add a New Book"
+[2025-09-25 19:48:05] [INFO]: Verified text for [id='add-book-heading']: "Add a New Book"
+[2025-09-25 19:48:05] [INFO]: Add Book page verified
+[2025-09-25 19:48:05] [INFO]: Step: I add a new book with title length = 20
+[2025-09-25 19:48:05] [INFO]: Generating new book with title length 20
+[2025-09-25 19:48:05] [INFO]: Generated random title [length=20]: wootintorejiggeryakm
+[2025-09-25 19:48:05] [INFO]: Generated future date (+60 days): 24/11/2025
+[2025-09-25 19:48:05] [INFO]: Adding book: {"title":"wootintorejiggeryakm","author":"Edith Terry-Weimann","genre":"Non-Fiction","publicationDate":"24/11/2025","isbn":"3530072940","price":"15.82"}
+[2025-09-25 19:48:05] [INFO]: Filling input: #title with value: "wootintorejiggeryakm" (delay: 0)
+[2025-09-25 19:48:05] [INFO]: Waiting for element to be visible: #title
+[2025-09-25 19:48:05] [INFO]: Element became visible: #title
+[2025-09-25 19:48:05] [INFO]: Input filled: #title
+[2025-09-25 19:48:05] [INFO]: Selecting option "Non-Fiction" from dropdown: #genre
+[2025-09-25 19:48:05] [INFO]: Selected option "Non-Fiction"
+[2025-09-25 19:48:05] [INFO]: Filling input: #publicationDate with value: "24/11/2025" (delay: 100)
+[2025-09-25 19:48:05] [INFO]: Waiting for element to be visible: #publicationDate
+[2025-09-25 19:48:05] [INFO]: Element became visible: #publicationDate
+[2025-09-25 19:48:06] [INFO]: Input filled: #publicationDate
+[2025-09-25 19:48:06] [INFO]: Filling input: #isbn with value: "3530072940" (delay: 0)
+[2025-09-25 19:48:06] [INFO]: Waiting for element to be visible: #isbn
+[2025-09-25 19:48:06] [INFO]: Element became visible: #isbn
+[2025-09-25 19:48:06] [INFO]: Input filled: #isbn
+[2025-09-25 19:48:06] [INFO]: Filling input: #price with value: "15.82" (delay: 0)
+[2025-09-25 19:48:06] [INFO]: Waiting for element to be visible: #price
+[2025-09-25 19:48:06] [INFO]: Element became visible: #price
+[2025-09-25 19:48:06] [INFO]: Input filled: #price
+[2025-09-25 19:48:06] [INFO]: Filling input: #author with value: "Edith Terry-Weimann" (delay: 0)
+[2025-09-25 19:48:06] [INFO]: Waiting for element to be visible: #author
+[2025-09-25 19:48:06] [INFO]: Element became visible: #author
+[2025-09-25 19:48:06] [INFO]: Input filled: #author
+[2025-09-25 19:48:06] [INFO]: Clicking 'Add Book' button
+[2025-09-25 19:48:06] [INFO]: Clicking element: button[aria-label='Submit Add New Book Form']
+[2025-09-25 19:48:06] [INFO]: Clicked element: button[aria-label='Submit Add New Book Form']
+[2025-09-25 19:48:06] [INFO]: Book submitted: "wootintorejiggeryakm"
+[2025-09-25 19:48:06] [INFO]: New book created: {"title":"wootintorejiggeryakm","author":"Edith Terry-Weimann","genre":"Non-Fiction","publicationDate":"24/11/2025","isbn":"3530072940","price":"15.82"}
+[2025-09-25 19:48:06] [INFO]: Step: Updating book title from "wootintorejiggeryakm" to "Updated Title"
+[2025-09-25 19:48:06] [INFO]: Clicking edit for book: wootintorejiggeryakm
+[2025-09-25 19:48:06] [INFO]: Edit clicked for book: wootintorejiggeryakm
+[2025-09-25 19:48:06] [INFO]: Updating book title to: "Updated Title"
+[2025-09-25 19:48:06] [INFO]: Filling input: input[name='title'] with value: "Updated Title" (delay: 0)
+[2025-09-25 19:48:06] [INFO]: Waiting for element to be visible: input[name='title']
+[2025-09-25 19:48:06] [INFO]: Element became visible: input[name='title']
+[2025-09-25 19:48:06] [INFO]: Input filled: input[name='title']
+[2025-09-25 19:48:06] [INFO]: Book title updated
+[2025-09-25 19:48:06] [INFO]: Saving updated book details
+[2025-09-25 19:48:06] [INFO]: Clicking element: button[type='submit']
+[2025-09-25 19:48:06] [INFO]: Clicked element: button[type='submit']
+[2025-09-25 19:48:06] [INFO]: Changes saved successfully
+[2025-09-25 19:48:06] [INFO]: Book title updated to "Updated Title" and saved
+[2025-09-25 19:48:06] [INFO]: Step: Updating price for "Updated Title" to "99.99"
+[2025-09-25 19:48:06] [INFO]: Clicking edit for book: Updated Title
+[2025-09-25 19:48:06] [INFO]: Edit clicked for book: Updated Title
+[2025-09-25 19:48:06] [INFO]: Updating book price to: "99.99"
+[2025-09-25 19:48:06] [INFO]: Filling input: input[name='price'] with value: "99.99" (delay: 0)
+[2025-09-25 19:48:06] [INFO]: Waiting for element to be visible: input[name='price']
+[2025-09-25 19:48:06] [INFO]: Element became visible: input[name='price']
+[2025-09-25 19:48:06] [INFO]: Input filled: input[name='price']
+[2025-09-25 19:48:06] [INFO]: Book price updated
+[2025-09-25 19:48:06] [INFO]: Saving updated book details
+[2025-09-25 19:48:06] [INFO]: Clicking element: button[type='submit']
+[2025-09-25 19:48:07] [INFO]: Clicked element: button[type='submit']
+[2025-09-25 19:48:07] [INFO]: Changes saved successfully
+[2025-09-25 19:48:07] [INFO]: Book price updated to "99.99" and saved
+[2025-09-25 19:48:07] [INFO]: Step: Verifying updated book "Updated Title" with price "99.99" in catalog
+[2025-09-25 19:48:07] [INFO]: Verifying book is present: Updated Title
+[2025-09-25 19:48:07] [INFO]: Waiting for element to be visible: tr:has(td:text-is("Updated Title"))
+[2025-09-25 19:48:07] [INFO]: Element became visible: tr:has(td:text-is("Updated Title"))
+[2025-09-25 19:48:07] [INFO]: Getting locator for: tr:has(td:text-is("Updated Title"))
+[2025-09-25 19:48:07] [INFO]: Asserting equality: actual=[Updated Title], expected=[Updated Title]
+[2025-09-25 19:48:07] [INFO]: Assertion passed: expected [Updated Title] and received [Updated Title]
+[2025-09-25 19:48:07] [INFO]: Asserting equality: actual=[Edith Terry-Weimann], expected=[Edith Terry-Weimann]
+[2025-09-25 19:48:07] [INFO]: Assertion passed: expected [Edith Terry-Weimann] and received [Edith Terry-Weimann]
+[2025-09-25 19:48:07] [INFO]: Asserting equality: actual=[Non-Fiction], expected=[Non-Fiction]
+[2025-09-25 19:48:07] [INFO]: Assertion passed: expected [Non-Fiction] and received [Non-Fiction]
+[2025-09-25 19:48:07] [INFO]: Asserting equality: actual=[3530072940], expected=[3530072940]
+[2025-09-25 19:48:07] [INFO]: Assertion passed: expected [3530072940] and received [3530072940]
+[2025-09-25 19:48:07] [INFO]: Asserting equality: actual=[24/11/2025], expected=[24/11/2025]
+[2025-09-25 19:48:07] [INFO]: Assertion passed: expected [24/11/2025] and received [24/11/2025]
+[2025-09-25 19:48:07] [INFO]: Asserting equality: actual=[99.99], expected=[99.99]
+[2025-09-25 19:48:07] [INFO]: Assertion passed: expected [99.99] and received [99.99]
+[2025-09-25 19:48:07] [INFO]: Verified all details for book: Updated Title
+[2025-09-25 19:48:07] [INFO]: Verified book shows updated title and price in catalog
+[2025-09-25 19:48:07] [INFO]: Finished Scenario: "Update an existing book successfully"
+[2025-09-25 19:48:07] [INFO]: Page closed.
+[2025-09-25 19:48:07] [INFO]: Browser context closed.
+[2025-09-25 19:48:07] [INFO]: Browser closed.
