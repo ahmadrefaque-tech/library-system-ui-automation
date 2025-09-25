@@ -1,0 +1,27 @@
+{
+  "name": "library-system-ui-automation",
+  "version": "1.0.0",
+  "description": "UI automation framework for Books Inventory Application using Playwright + TypeScript + Cucumber (BDD)",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "report": "open reports/cucumber-report.html",
+    "test:firefox": "BROWSER=firefox HEADLESS=true npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@playwright/test": "^1.55.0",
+    "@types/chai": "^5.2.2",
+    "dotenv": "^17.2.2",
+    "playwright": "^1.55.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
+    "winston": "^3.17.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.0.0"
+  }
+}

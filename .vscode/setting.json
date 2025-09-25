@@ -1,0 +1,18 @@
+{
+  "cucumberautocomplete.steps": [
+    "src/steps/**/*.ts"
+  ],
+  "cucumberautocomplete.syncfeatures": "features/**/*.feature",
+
+  "cucumberautocomplete.gherkinDefinitionPart": "\\s*(Given|When|And|Then)\\(",
+  "cucumberautocomplete.stepRegEx": "^(Given|When|And|Then)\\(\"([^\"]*)\"",
+
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true,
+
+  "editor.formatOnSave": true,
+  "[feature]": {
+    "editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
+  }
+}
